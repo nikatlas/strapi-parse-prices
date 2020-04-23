@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prosfores",
+  "info": {
+    "name": "Prosfores"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ItemID": {
+      "type": "string"
+    },
+    "auction": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

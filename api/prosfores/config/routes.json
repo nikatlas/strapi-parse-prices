@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/prosfores",
+      "handler": "prosfores.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prosfores/up",
+      "handler": "prosfores.updateDB",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prosfores/count",
+      "handler": "prosfores.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/prosfores/:id",
+      "handler": "prosfores.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/prosfores",
+      "handler": "prosfores.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/prosfores/:id",
+      "handler": "prosfores.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/prosfores/:id",
+      "handler": "prosfores.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
